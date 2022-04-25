@@ -1,0 +1,16 @@
+   currentUser
+        is defined
+        welcomeMessage
+        contains "Welcome to Flatbook, "
+        contains the value of the 'currentUser' variable
+        ends with an exclamation point!
+
+    excitedWelcomeMessage
+         contains "WELCOME TO FLATBOOK, "
+         contains the value of the 'currentUser' variable
+         ends with an exclamation point
+         
+    shortGreeting
+      1) contains "Welcome, "
+      2) contains the first initial of the name stored in the 'currentUser' variable
+      3) ends with an exclamation point
